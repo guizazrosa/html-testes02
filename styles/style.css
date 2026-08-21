@@ -33,6 +33,11 @@ body{
     color: var(--cor-terciaria);
     text-decoration: none;
 }
+
+.cabecalho__menu__link:hover{
+    color: var(--cor-secundaria);
+}
+
 .apresentacao{
     padding: 5% 15%;
     display: flex;
@@ -86,7 +91,7 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
 }
 .rodape{
@@ -100,7 +105,7 @@ body{
 }
 
 .apresentacao__imagem{
-    width: 50%;
+    width: 40%;
     
 }
 
